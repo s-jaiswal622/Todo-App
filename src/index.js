@@ -20,7 +20,6 @@ const addItem = () =>
    let updatedList = list.filter(item => item.id!=id);
     setList(updatedList);
   }
-
   return(
     <div className="App">
       <div>Add an Item</div>
